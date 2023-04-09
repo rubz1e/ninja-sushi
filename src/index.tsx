@@ -1,14 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom/client';
 import App from './App';
 
-import { GlobalStyle } from '../src/components/globalStyle';
-
-const Root = () => (
-  <React.Fragment>
-    <GlobalStyle />
+const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement);
+root.render(
+  <>
     <App />
-  </React.Fragment>
+  </>
 );
-
-ReactDOM.render(<Root />, document.querySelector('#root'));
