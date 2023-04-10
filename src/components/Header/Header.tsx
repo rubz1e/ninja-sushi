@@ -1,40 +1,58 @@
 import React from 'react';
-import { header } from './Header.styled';
+
+import { headers } from './Header.styled';
 
 import Logo from '../../assets/logo.svg';
-import Tel from '../../assets/tel.svg';
-import Fav from '../../assets/fav.svg';
-import Prof from '../../assets/profile.svg';
-import Basket from '../../assets/basket.svg';
+import Telephone from '../../assets/tel.svg';
+
+import { ReactComponent as Favorite } from '../../assets/fav.svg';
+import { ReactComponent as Profile } from '../../assets/profile.svg';
+import { ReactComponent as Basket } from '../../assets/basket.svg';
 
 export default function Header() {
   return (
-    <header.container>
-      <header.logoLink to="/">
-        <img src={Logo} alt="Logo" color="black" />
-      </header.logoLink>
-      <header.linkList>
-        <header.link to="*">Главная</header.link>
-        <header.link to="*">Доставка</header.link>
-        <header.link to="*">О нас</header.link>
-        <header.link to="*">Новости</header.link>
-        <header.link to="tel:+380976993438">
-          <img src={Tel} alt="" />
-          <header.tel>+38 097 699 34 38</header.tel>
-        </header.link>
-      </header.linkList>
-      <header.linkList>
-        <header.icon to="*">
-          <img src={Fav} alt="Favorite" />
-        </header.icon>
-        <header.icon to="*">
-          <img src={Prof} alt="Profile" />
-        </header.icon>
-        <header.icon to="*">
-          <header.basket>Корзина</header.basket>
-          <img src={Basket} alt="Basket" />
-        </header.icon>
-      </header.linkList>
-    </header.container>
+    <headers.container>
+      <headers.logo to="/">
+        <img src={Logo} alt="" />
+      </headers.logo>
+      <headers.ul>
+        <headers.li>
+          <headers.link to="/">Главная</headers.link>
+        </headers.li>
+        <headers.li>
+          <headers.link to="/">Доставка</headers.link>
+        </headers.li>
+        <headers.li>
+          <headers.link to="/">О нас</headers.link>
+        </headers.li>
+        <headers.li>
+          <headers.link to="/">Новости</headers.link>
+        </headers.li>
+        <headers.li>
+          <headers.link to="tel:+380976993438">
+            <img src={Telephone} alt="Telephone" />
+            <headers.telephone>+ 38 097 699 34 38</headers.telephone>
+          </headers.link>
+        </headers.li>
+      </headers.ul>
+      <headers.ul>
+        <headers.li>
+          <headers.icon to="/">
+            <Favorite width="24px" height="24px" />
+          </headers.icon>
+        </headers.li>
+        <headers.li>
+          <headers.icon to="/">
+            <Profile width="24px" height="24px" />
+          </headers.icon>
+        </headers.li>
+        <headers.li>
+          <headers.icon to="/">
+            <headers.basket>Корзина</headers.basket>
+            <Basket width="24px" height="24px" />
+          </headers.icon>
+        </headers.li>
+      </headers.ul>
+    </headers.container>
   );
 }

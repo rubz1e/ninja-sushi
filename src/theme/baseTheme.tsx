@@ -30,6 +30,8 @@ export const baseTheme: ITheme = {
 
     hoverOrange: 'linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #FF6633',
     hoverGreen: 'linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #00CC2D',
+
+    menuHover: 'rgba(255, 102, 51, 0.15)',
   },
 
   media: {
@@ -42,9 +44,9 @@ export const baseTheme: ITheme = {
   // in px
   sizes: {
     header: { height: 80 },
-    container: { width: 1500 },
-    footer: { height: 128 },
-    modal: { width: 540 },
+    container: { width: 1570 },
+    footer: { height: 376 },
+    modal: { width: 590 },
   },
 
   // in ms

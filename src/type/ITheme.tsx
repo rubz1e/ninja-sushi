@@ -28,6 +28,8 @@ export interface ITheme {
 
     hoverOrange: string;
     hoverGreen: string;
+
+    menuHover: string;
   };
   media: {
     extraLarge: string;
