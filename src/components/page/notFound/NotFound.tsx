@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { notFounds } from './NotFound.styled';
-
 import NotFoundFirst from '../../../assets/notFound.svg';
 
 export default function NotFound() {
