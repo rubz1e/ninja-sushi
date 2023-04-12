@@ -1,6 +1,6 @@
 import React from 'react';
 import { notFounds } from './RoutingError.styled';
-import { ReactComponent as NotFounds } from '../../../assets/notFound.svg';
+import { ReactComponent as NotFounds } from './../../assets/notFound.svg';
 
 export default function RoutingError() {
   return (

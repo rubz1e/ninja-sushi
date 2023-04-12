@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { baseTheme } from '../../../theme/baseTheme';
+import { baseTheme } from '../../theme/baseTheme';
 import { NavLink } from 'react-router-dom';
 
 const Text = styled.h2`
