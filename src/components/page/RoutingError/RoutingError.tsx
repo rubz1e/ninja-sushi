@@ -2,7 +2,7 @@ import React from "react";
 import { notFounds } from "./RoutingError.styled";
 import NotFoundFirst from "../../../assets/notFound.svg";
 
-export default function NotFound() {
+export default function RoutingError() {
   return (
     <notFounds.errorContainer>
       <notFounds.error>
