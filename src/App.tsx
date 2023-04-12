@@ -4,7 +4,6 @@ import { GlobalStyle } from './components/globalStyle';
 
 import Header from './components/Header/Header';
 import Category from './components/Category/Category';
-
 import NotFound from './components/page/NotFound/NotFound';
 
 function App() {
