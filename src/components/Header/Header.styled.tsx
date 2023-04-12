@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { NavLink } from 'react-router-dom';
 import { baseTheme } from '../../theme/baseTheme';
+import { NavLink } from 'react-router-dom';
 
 export const headers = {
   container: styled.header`

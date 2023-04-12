@@ -2,10 +2,10 @@ import React from 'react';
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { GlobalStyle } from './components/globalStyle';
 
-import Header from './components/header/Header';
-import Category from './components/category/Category';
+import Header from './components/Header/Header';
+import Category from './components/Category/Category';
 
-import NotFound from './components/page/notFound/NotFound';
+import NotFound from './components/page/NotFound/NotFound';
 
 function App() {
   return (
