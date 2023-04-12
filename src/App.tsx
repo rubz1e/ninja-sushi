@@ -6,7 +6,6 @@ import Header from './components/header/Header';
 import Category from './components/category/Category';
 
 import NotFound from './components/page/notFound/NotFound';
-import Home from './components/page/home/Home';
 
 function App() {
   return (
