@@ -28,8 +28,8 @@ export const baseTheme: ITheme = {
     bgOrange: '#FBDCD5',
     bgGreen: '#CCF5D5',
 
-    hoverOrange: 'linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), #FF6633',
-    hoverGreen: 'linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), #00CC2D',
+    hoverOrange: '#E65C2E',
+    hoverGreen: '#00A324',
 
     menuHover: 'rgba(255, 102, 51, 0.15)',
   },

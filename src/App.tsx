@@ -1,9 +1,12 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-
+import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { GlobalStyle } from './components/globalStyle';
-import Header from './components/Header/Header';
-import Category from './components/Category/Category';
+
+import Header from './components/header/Header';
+import Category from './components/category/Category';
+
+import NotFound from './components/page/notFound/NotFound';
+import Home from './components/page/home/Home';
 
 function App() {
   return (
@@ -11,7 +14,13 @@ function App() {
       <GlobalStyle />
       <BrowserRouter>
         <Header />
-        <Category />
+        <main>
+          <Category />
+          <Routes>
+            <Route path="/home" element={<Navigate to="/" replace />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+        </main>
       </BrowserRouter>
     </>
   );
