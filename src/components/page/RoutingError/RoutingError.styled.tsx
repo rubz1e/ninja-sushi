@@ -1,9 +1,9 @@
-import styled from 'styled-components';
-import { baseTheme } from '../../../theme/baseTheme';
-import { NavLink } from 'react-router-dom';
+import styled from "styled-components";
+import { baseTheme } from "../../../theme/baseTheme";
+import { NavLink } from "react-router-dom";
 
 const Text = styled.h2`
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
   font-weight: 700;
   line-height: 40px;
