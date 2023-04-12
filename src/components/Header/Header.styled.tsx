@@ -34,7 +34,6 @@ export const headers = {
     align-items: center;
     display: flex;
     padding: 22px 18px;
-    transition: 0.1s ease-in-out;
     border-radius: 12px;
     color: ${baseTheme.colors.black};
     &:hover {
@@ -56,7 +55,6 @@ export const headers = {
     display: flex;
     cursor: pointer;
     padding: 16px;
-    transition: 0.1s ease-in-out;
     text-decoration: none;
     color: ${baseTheme.colors.black};
     justify-content: space-between;

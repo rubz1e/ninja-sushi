@@ -12,7 +12,7 @@ export const categories = {
     margin: 0 auto;
     margin-top: 16px;
     height: 83px;
-    padding: 6px 16px;
+    padding: 6px 30px;
     background-color: ${baseTheme.colors.white};
     align-items: center;
     display: flex;
@@ -36,7 +36,6 @@ export const categories = {
     flex-direction: column;
     align-items: center;
     padding: 6px 20px;
-    transition: 0.1s ease-in-out;
     border-radius: 12px;
     color: ${baseTheme.colors.black};
     &:hover {

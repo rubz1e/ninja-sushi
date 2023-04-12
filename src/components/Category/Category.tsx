@@ -33,7 +33,7 @@ export default function Category() {
         <categories.li>
           <categories.link to="/bowls">
             <Bowls />
-            <categories.p>Боулы</categories.p>
+            <categories.p>Закуски</categories.p>
           </categories.link>
         </categories.li>
         <categories.li>

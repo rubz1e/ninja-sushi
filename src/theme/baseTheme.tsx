@@ -35,13 +35,12 @@ export const baseTheme: ITheme = {
   },
 
   media: {
-    extraLarge: '(max-width: 1140px)',
+    extraLarge: '(max-width: 1270px)',
     large: '(max-width: 960px)',
     medium: '(max-width: 720px)',
     small: '(max-width: 540px)',
   },
 
-  // in px
   sizes: {
     header: { height: 80 },
     container: { width: 1570 },
@@ -49,7 +48,6 @@ export const baseTheme: ITheme = {
     modal: { width: 590 },
   },
 
-  // in ms
   durations: {
     ms300: 300,
   },
