@@ -2,12 +2,12 @@ import React from 'react';
 
 import { headers } from './Header.styled';
 
-import Logo from '../../assets/logo.svg';
-import Telephone from '../../assets/tel.svg';
+import Logo from '../../../assets/logo.svg';
+import Telephone from '../../../assets/tel.svg';
 
-import { ReactComponent as Favorite } from '../../assets/fav.svg';
-import { ReactComponent as Profile } from '../../assets/profile.svg';
-import { ReactComponent as Basket } from '../../assets/basket.svg';
+import { ReactComponent as Favorite } from '../../../assets/fav.svg';
+import { ReactComponent as Profile } from '../../../assets/profile.svg';
+import { ReactComponent as Basket } from '../../../assets/basket.svg';
 
 export default function Header() {
   return (
@@ -17,7 +17,7 @@ export default function Header() {
       </headers.logo>
       <headers.ul>
         <headers.li>
-          <headers.link to="/">Главная</headers.link>
+          <headers.link to="/home">Главная</headers.link>
         </headers.li>
         <headers.li>
           <headers.link to="/">Доставка</headers.link>

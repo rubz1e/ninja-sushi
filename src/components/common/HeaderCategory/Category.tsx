@@ -1,12 +1,12 @@
 import React from 'react';
 import { categories } from './Category.styled';
 
-import { ReactComponent as Rolls } from '../../assets/category/rolls.svg';
-import { ReactComponent as Sushi } from '../../assets/category/sushi.svg';
-import { ReactComponent as Sets } from '../../assets/category/sets.svg';
-import { ReactComponent as Bowls } from '../../assets/category/bowls.svg';
-import { ReactComponent as Drinks } from '../../assets/category/drinks.svg';
-import { ReactComponent as Sausec } from '../../assets/category/sauces.svg';
+import { ReactComponent as Rolls } from '../../../assets/category/rolls.svg';
+import { ReactComponent as Sushi } from '../../../assets/category/sushi.svg';
+import { ReactComponent as Sets } from '../../../assets/category/sets.svg';
+import { ReactComponent as Bowls } from '../../../assets/category/bowls.svg';
+import { ReactComponent as Drinks } from '../../../assets/category/drinks.svg';
+import { ReactComponent as Sausec } from '../../../assets/category/sauces.svg';
 
 export default function Category() {
   return (

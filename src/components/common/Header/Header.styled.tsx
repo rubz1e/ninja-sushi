@@ -1,16 +1,15 @@
 import styled from 'styled-components';
-import { baseTheme } from '../../theme/baseTheme';
+import { baseTheme } from '../../../theme/baseTheme';
 import { NavLink } from 'react-router-dom';
+import { containers } from '../../../styles/globalStyle';
 
 export const headers = {
   container: styled.header`
+    ${containers}
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    max-width: ${baseTheme.sizes.container.width}px;
-    padding: 0 15px;
     border-radius: 12px;
-    margin: 0 auto;
     height: ${baseTheme.sizes.header.height}px;
     z-index: ${baseTheme.order.header};
     background-color: ${baseTheme.colors.white};
@@ -27,6 +26,9 @@ export const headers = {
   li: styled.li``,
   logo: styled(NavLink)`
     cursor: pointer;
+    display: flex;
+    align-items: start;
+    justify-content: start;
   `,
   link: styled(NavLink)`
     cursor: pointer;

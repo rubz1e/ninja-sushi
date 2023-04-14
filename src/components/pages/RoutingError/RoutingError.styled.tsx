@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { baseTheme } from '../../theme/baseTheme';
+import { baseTheme } from '../../../theme/baseTheme';
 import { NavLink } from 'react-router-dom';
 
 const Text = styled.h2`
@@ -17,9 +17,7 @@ export const notFounds = {
     margin-top: 16px;
   `,
   error: styled.div`
-    display: flex;
     max-width: 400px;
-    flex-direction: column;
   `,
   h2: styled(Text)`
     color: ${baseTheme.colors.black};
