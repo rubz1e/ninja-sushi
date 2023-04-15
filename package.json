@@ -22,12 +22,11 @@
     "styled-components": "^5.3.9",
     "styled-normalize": "^8.0.7",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4",
-    "json-server": "^0.17.3"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && json-server -w server/db.json -p 3001",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server -w server/db.json -p 3001",
