@@ -1,6 +1,7 @@
 {
   "rolls": [
     {
+      "id": 1,
       "name": "Ролл Дракон",
       "description": "Ролл с угрем, огурцом и авокадо внутри, тобико и соус унаги сверху",
       "image_url": "https://example.com/images/roll_dragon.jpg",
@@ -11,6 +12,7 @@
       "allergens": ["Рыба"]
     },
     {
+      "id": 2,
       "name": "Ролл Калифорния",
       "description": "Классический ролл с крабовым мясом, огурцом и авокадо",
       "image_url": "https://example.com/images/roll_california.jpg",
@@ -21,6 +23,7 @@
       "allergens": ["Ракообразные"]
     },
     {
+      "id": 3,
       "name": "Ролл Филадельфия",
       "description": "Ролл с лососем, сливочным сыром и огурцом внутри, сверху тобико и соус унаги",
       "image_url": "https://example.com/images/roll_philadelphia.jpg",
@@ -31,6 +34,7 @@
       "allergens": ["Рыба", "Молочные продукты"]
     },
     {
+      "id": 4,
       "name": "Ролл с креветкой",
       "description": "Ролл с креветкой, авокадо и огурцом",
       "image_url": "https://example.com/images/roll_shrimp.jpg",
@@ -41,6 +45,7 @@
       "allergens": ["Креветка"]
     },
     {
+      "id": 5,
       "name": "Ролл с тунцом",
       "description": "Ролл с тунцом, авокадо и огурцом",
       "image_url": "https://example.com/images/roll_tuna.jpg",
@@ -51,6 +56,7 @@
       "allergens": ["Рыба"]
     },
     {
+      "id": 6,
       "name": "Ролл Чикен Терияки",
       "description": "Ролл с курицей в соусе терияки",
       "image_url": "https://example.com/images/roll_chicken_teriyaki.jpg",
@@ -61,6 +67,7 @@
       "allergens": ["Курица", "Соевый соус"]
     },
     {
+      "id": 7,
       "name": "Ролл Сакура",
       "description": "Ролл с тигровой креветкой и авокадо",
       "image_url": "https://example.com/images/roll_sakura.jpg",
@@ -71,6 +78,7 @@
       "allergens": ["Креветки", "Майонез"]
     },
     {
+      "id": 8,
       "name": "Ролл Мексиканский",
       "description": "Ролл с креветкой, авокадо и соусом сальса",
       "image_url": "https://example.com/images/roll_mexican.jpg",
@@ -81,6 +89,7 @@
       "allergens": ["Креветки"]
     },
     {
+      "id": 9,
       "name": "Ролл с лососем и авокадо",
       "description": "Классический ролл с лососем и авокадо",
       "image_url": "https://example.com/images/salmon_avocado_roll.jpg",
@@ -91,6 +100,7 @@
       "allergens": ["Рыба"]
     },
     {
+      "id": 0,
       "name": "Ролл с креветкой темпура",
       "description": "Ролл в жареной панировке, с креветкой, огурцом и темпурой",
       "image_url": "https://example.com/images/tempura_shrimp_roll.jpg",
@@ -103,9 +113,10 @@
   ],
   "sushi": [
     {
+      "id": 1,
       "name": "Суши с лососем",
       "description": "Классические суши с лососем",
-      "image_url": "https://example.com/images/sushi_salmon.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/3401.png",
       "igridients": ["Рис", "Лосось"],
       "weight": "50 г",
       "price": 3.0,
@@ -113,9 +124,10 @@
       "allergens": ["Рыба"]
     },
     {
+      "id": 2,
       "name": "Суши с тунцом",
       "description": "Классические суши с тунцом",
-      "image_url": "https://example.com/images/sushi_tuna.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/3439.png",
       "igridients": ["Рис", "Тунец"],
       "weight": "50 г",
       "price": 3.5,
@@ -123,9 +135,10 @@
       "allergens": ["Рыба"]
     },
     {
+      "id": 3,
       "name": "Суши с крабом",
       "description": "Классические суши с крабом",
-      "image_url": "https://example.com/images/sushi_crab.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/3401.png",
       "igridients": ["Рис", "Крабовое мясо"],
       "weight": "50 г",
       "price": 2.5,
@@ -133,9 +146,10 @@
       "allergens": ["Ракообразные"]
     },
     {
+      "id": 4,
       "name": "Суши Филадельфия",
       "description": "Суши с лососем, сливочным сыром и авокадо",
-      "image_url": "https://example.com/images/sushi_philadelphia.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/3416.png",
       "igridients": ["Рис", "Лосось", "Сливочный сыр", "Авокадо"],
       "weight": "60 г",
       "price": 4.5,
@@ -143,9 +157,10 @@
       "allergens": ["Рыба", "Молочные продукты"]
     },
     {
+      "id": 5,
       "name": "Суши Унаги",
       "description": "Суши с угрем и соусом унаги",
-      "image_url": "https://example.com/images/sushi_unagi.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/3438.png",
       "igridients": ["Рис", "Угорь", "Соус унаги"],
       "weight": "50 г",
       "price": 5.0,
@@ -153,9 +168,10 @@
       "allergens": ["Рыба"]
     },
     {
+      "id": 6,
       "name": "Суши Магуро",
       "description": "Суши с тунцом и огурцом",
-      "image_url": "https://example.com/images/sushi_maguro.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/3441.png",
       "igridients": ["Рис", "Тунец", "Огурец"],
       "weight": "45 г",
       "price": 6.0,
@@ -163,9 +179,10 @@
       "allergens": ["Рыба"]
     },
     {
+      "id": 7,
       "name": "Суши Калифорния",
       "description": "Суши с крабом и авокадо",
-      "image_url": "https://example.com/images/sushi_california.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/3441.png",
       "igridients": ["Рис", "Краб", "Авокадо"],
       "weight": "40 г",
       "price": 4.5,
@@ -173,9 +190,10 @@
       "allergens": ["Рыба", "Крабовые палочки"]
     },
     {
+      "id": 8,
       "name": "Суши Тамаго",
       "description": "Суши с яичным омлетом и огурцом",
-      "image_url": "https://example.com/images/sushi_tamago.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/3442.png",
       "igridients": ["Рис", "Яичный омлет", "Огурец"],
       "weight": "30 г",
       "price": 3.5,
@@ -183,9 +201,10 @@
       "allergens": ["Яйца"]
     },
     {
+      "id": 9,
       "name": "Суши Такуан",
       "description": "Суши с маринованным японским редисом",
-      "image_url": "https://example.com/images/sushi_takuan.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/3412.png",
       "igridients": ["Рис", "Маринованный японский редис"],
       "weight": "40 г",
       "price": 3.5,
@@ -193,9 +212,10 @@
       "allergens": []
     },
     {
+      "id": 10,
       "name": "Суши Темпура",
       "description": "Суши с жареным креветками и овощами",
-      "image_url": "https://example.com/images/sushi_tempura.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/1301.png",
       "igridients": ["Рис", "Креветки", "Огурец", "Перец болгарский", "Соус темпура"],
       "weight": "55 г",
       "price": 6.0,
@@ -203,9 +223,10 @@
       "allergens": ["Рыба", "Креветки", "Глютен"]
     },
     {
+      "id": 11,
       "name": "Суши Чука",
       "description": "Суши с крабовыми палочками и омлетом",
-      "image_url": "https://example.com/images/sushi_chuka.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/3443.png",
       "igridients": ["Рис", "Крабовые палочки", "Омлет", "Огурец", "Икра тобико"],
       "weight": "50 г",
       "price": 3.5,
@@ -213,9 +234,10 @@
       "allergens": ["Рыба", "Яйца"]
     },
     {
+      "id": 12,
       "name": "Суши Тирамису",
       "description": "Суши с креветками, огурцом и сыром",
-      "image_url": "https://example.com/images/sushi_tiramisu.jpg",
+      "image_url": "https://ninjasushi.com.ua/img/102-600x600.png",
       "igridients": ["Рис", "Креветки", "Огурец", "Сливочный сыр"],
       "weight": "55 г",
       "price": 5.5,
@@ -225,6 +247,7 @@
   ],
   "sets": [
     {
+      "id": 1,
       "name": "Сет \"Калифорния 1\"",
       "description": "Сет с крабом, авокадо и огурцом",
       "image_url": "https://example.com/images/california_set.jpg",
@@ -238,6 +261,7 @@
       "allergens": ["крабовое мясо", "авокадо", "огурец"]
     },
     {
+      "id": 2,
       "name": "Сет \"Филадельфия\"",
       "description": "Сет с лососем и сливочным сыром",
       "image_url": "https://example.com/images/philadelphia_set.jpg",
@@ -251,6 +275,7 @@
       "allergens": ["рыба", "молоко"]
     },
     {
+      "id": 3,
       "name": "Сет \"Дракон\"",
       "description": "Сет с угрем и огурцом в жареной кунжутной корочке",
       "image_url": "https://example.com/images/dragon_set.jpg",
@@ -264,6 +289,7 @@
       "allergens": ["рыба", "кунжут"]
     },
     {
+      "id": 4,
       "name": "Сет \"Счастливый\"",
       "description": "Сет с лососем и авокадо",
       "image_url": "https://example.com/images/happy_set.jpg",
@@ -278,6 +304,7 @@
       "allergens": ["рыба", "авокадо"]
     },
     {
+      "id": 5,
       "name": "Сет \"Смайлик\"",
       "description": "Сет с крабом и икрой",
       "image_url": "https://example.com/images/smiley_set.jpg",
@@ -292,6 +319,7 @@
       "allergens": ["крабовое мясо", "рыба", "икра"]
     },
     {
+      "id": 6,
       "name": "Сет \"Красный дракон\"",
       "description": "Сет с лососем и кунжутом",
       "image_url": "https://example.com/images/red_dragon_set.jpg",
@@ -306,6 +334,7 @@
       "allergens": ["рыба", "кунжут"]
     },
     {
+      "id": 7,
       "name": "Сет \"Тайский\"",
       "description": "Сет с угрем и соусом Терияки",
       "image_url": "https://example.com/images/thai_set.jpg",
@@ -320,6 +349,7 @@
       "allergens": ["рыба"]
     },
     {
+      "id": 8,
       "name": "Сет \"Филадельфия с кунжутом\"",
       "description": "Сет с лососем, сливочным сыром и кунжутом",
       "image_url": "https://example.com/images/philadelphia_set.jpg",
@@ -334,6 +364,7 @@
       "allergens": ["рыба", "молочные продукты", "кунжут"]
     },
     {
+      "id": 9,
       "name": "Сет \"Японский сад\"",
       "description": "Сет с тунцом и огурцом",
       "image_url": "https://example.com/images/japanese_garden_set.jpg",
@@ -348,6 +379,7 @@
       "allergens": ["рыба"]
     },
     {
+      "id": 0,
       "name": "Сет \"Калифорния 2\"",
       "description": "Сет с крабовым мясом, авокадо и огурцом",
       "image_url": "https://example.com/images/california_set.jpg",
@@ -364,6 +396,7 @@
   ],
   "bowls": [
     {
+      "id": 1,
       "name": "Сырная тарелка",
       "description": "Ассорти из различных видов сыра с гренками и виноградом",
       "image_url": "https://example.com/cheese-platter.jpg",
@@ -374,6 +407,7 @@
       "allergens": ["молоко", "глютен"]
     },
     {
+      "id": 2,
       "name": "Греческий салат",
       "description": "Салат из овощей, феты и оливок, заправленный оливковым маслом",
       "image_url": "https://example.com/greek-salad.jpg",
@@ -384,6 +418,7 @@
       "allergens": ["молоко"]
     },
     {
+      "id": 3,
       "name": "Хумус с питой",
       "description": "Традиционный арабский дип из нута с соусом тахини, подается с питой",
       "image_url": "https://example.com/hummus-pita.jpg",
@@ -394,6 +429,7 @@
       "allergens": ["кунжут"]
     },
     {
+      "id": 4,
       "name": "Картофель фри",
       "description": "Картофель фри с соусом",
       "image_url": "https://example.com/french-fries.jpg",
@@ -404,6 +440,7 @@
       "allergens": []
     },
     {
+      "id": 5,
       "name": "Куриные крылья",
       "description": "Острые куриные крылья с соусом блю чиз",
       "image_url": "https://example.com/chicken-wings.jpg",
@@ -414,6 +451,7 @@
       "allergens": ["глютен"]
     },
     {
+      "id": 6,
       "name": "Креветки тигровые",
       "description": "Обжаренные тигровые креветки на гриле",
       "image_url": "https://example.com/grilled-shrimp.jpg",
@@ -424,6 +462,7 @@
       "allergens": ["моллюски"]
     },
     {
+      "id": 7,
       "name": "Брускетта",
       "description": "Хрустящие гренки с помидорами, базиликом и оливковым маслом",
       "image_url": "https://example.com/bruschetta.jpg",
@@ -434,6 +473,7 @@
       "allergens": []
     },
     {
+      "id": 8,
       "name": "Крабовые палочки",
       "description": "Обжаренные крабовые палочки с соусом тар-тар",
       "image_url": "https://example.com/crab-sticks.jpg",
@@ -444,6 +484,7 @@
       "allergens": ["глютен"]
     },
     {
+      "id": 9,
       "name": "Баклажанные рулеты",
       "description": "Запеченные баклажаны с начинкой из сыра и зелени",
       "image_url": "https://example.com/eggplant-rolls.jpg",
@@ -454,6 +495,7 @@
       "allergens": []
     },
     {
+      "id": 10,
       "name": "Картофельные дольки",
       "description": "Хрустящие картофельные дольки с ароматными специями",
       "image_url": "https://example.com/potato-wedges.jpg",
@@ -464,6 +506,7 @@
       "allergens": []
     },
     {
+      "id": 11,
       "name": "Куриные крылья",
       "description": "Куриные крылья в кляре с острым соусом",
       "image_url": "https://example.com/chicken-wings.jpg",
@@ -474,6 +517,7 @@
       "allergens": ["глютен"]
     },
     {
+      "id": 12,
       "name": "Сельдь под шубой",
       "description": "Классический русский закусочный салат",
       "image_url": "https://example.com/herring-under-fur-coat.jpg",
@@ -486,6 +530,7 @@
   ],
   "drinks": [
     {
+      "id": 1,
       "name": "Кола",
       "description": "Освежающий газированный напиток",
       "image_url": "https://example.com/cola.jpg",
@@ -496,6 +541,7 @@
       "allergens": []
     },
     {
+      "id": 2,
       "name": "Фруктовый смузи",
       "description": "Сочный фруктовый напиток с молоком",
       "image_url": "https://example.com/smoothie.jpg",
@@ -506,6 +552,7 @@
       "allergens": ["молоко"]
     },
     {
+      "id": 3,
       "name": "Латте",
       "description": "Ароматный кофе с молоком",
       "image_url": "https://example.com/latte.jpg",
@@ -516,6 +563,7 @@
       "allergens": ["молоко"]
     },
     {
+      "id": 4,
       "name": "Матча латте",
       "description": "Полезный напиток из зеленого чая",
       "image_url": "https://example.com/matcha-latte.jpg",
@@ -526,6 +574,7 @@
       "allergens": ["молоко"]
     },
     {
+      "id": 5,
       "name": "Черный чай",
       "description": "Классический черный чай со сладким ароматом",
       "image_url": "https://example.com/black-tea.jpg",
@@ -536,6 +585,7 @@
       "allergens": []
     },
     {
+      "id": 6,
       "name": "Холодный кофе",
       "description": "Освежающий холодный кофе со вкусом ванили",
       "image_url": "https://example.com/cold-coffee.jpg",
@@ -546,6 +596,7 @@
       "allergens": ["молоко"]
     },
     {
+      "id": 7,
       "name": "Смузи с шпинатом",
       "description": "Полезный зеленый смузи с шпинатом и фруктами",
       "image_url": "https://example.com/green-smoothie.jpg",
@@ -556,6 +607,7 @@
       "allergens": []
     },
     {
+      "id": 8,
       "name": "Кокосовое молоко",
       "description": "Напиток из кокосового молока с нежным вкусом",
       "image_url": "https://example.com/coconut-milk.jpg",
@@ -566,6 +618,7 @@
       "allergens": []
     },
     {
+      "id": 9,
       "name": "Ром и кола",
       "description": "Коктейль из рома и колы с льдом и лимоном",
       "image_url": "https://example.com/rum-and-cola.jpg",
@@ -576,6 +629,7 @@
       "allergens": []
     },
     {
+      "id": 10,
       "name": "Эспрессо",
       "description": "Крепкий и ароматный кофе с малым объемом",
       "image_url": "https://example.com/espresso.jpg",
@@ -586,6 +640,7 @@
       "allergens": []
     },
     {
+      "id": 11,
       "name": "Фреш из апельсинов",
       "description": "Свежевыжатый сок из спелых апельсинов",
       "image_url": "https://example.com/orange-juice.jpg",
@@ -596,6 +651,7 @@
       "allergens": []
     },
     {
+      "id": 12,
       "name": "Чай с мятой",
       "description": "Черный чай с добавлением свежей мяты",
       "image_url": "https://example.com/mint-tea.jpg",
@@ -608,6 +664,7 @@
   ],
   "sausec": [
     {
+      "id": 1,
       "name": "Унаги соус",
       "description": "Классический соус для суши с унаги",
       "image_url": "https://example.com/images/unagi_sauce.jpg",
@@ -619,6 +676,7 @@
       "allergens": ["соевые бобы"]
     },
     {
+      "id": 2,
       "name": "Терияки соус",
       "description": "Классический соус для мяса и овощей",
       "image_url": "https://example.com/images/teriyaki_sauce.jpg",
@@ -630,6 +688,7 @@
       "allergens": ["соевые бобы"]
     },
     {
+      "id": 3,
       "name": "Спайси майонез",
       "description": "Острый майонезный соус для роллов",
       "image_url": "https://example.com/images/spicy_mayo_sauce.jpg",
@@ -641,6 +700,7 @@
       "allergens": ["яйца", "соевые бобы"]
     },
     {
+      "id": 4,
       "name": "Горчичный",
       "description": "Острый соус с горчичным привкусом",
       "image_url": "https://example.com/sauces/mustard.png",
@@ -652,6 +712,7 @@
       "allergens": ["горчица"]
     },
     {
+      "id": 5,
       "name": "Соевый",
       "description": "Нежный соус на основе соевого соуса",
       "image_url": "https://example.com/sauces/soy.png",
@@ -663,6 +724,7 @@
       "allergens": ["соевые бобы", "кунжут"]
     },
     {
+      "id": 6,
       "name": "Сладко-острый",
       "description": "Соус со сладким и острым вкусом",
       "image_url": "https://example.com/sauces/sweet-spicy.png",
@@ -674,6 +736,7 @@
       "allergens": []
     },
     {
+      "id": 7,
       "name": "Томатный соус",
       "description": "Классический томатный соус с нежной текстурой и насыщенным вкусом помидоров",
       "image_url": "https://example.com/tomato_sauce.jpg",
@@ -685,6 +748,7 @@
       "allergens": ["лук"]
     },
     {
+      "id": 8,
       "name": "Сладкий чили соус",
       "description": "Нежный соус на основе сладкого перца и острых специй",
       "image_url": "https://example.com/sweet_chili_sauce.jpg",
@@ -696,6 +760,7 @@
       "allergens": ["чеснок"]
     },
     {
+      "id": 9,
       "name": "Соус 'Сырный'",
       "description": "Нежный соус с легкой густотой и насыщенным вкусом сыра",
       "image_url": "https://example.com/cheese_sauce.jpg",
@@ -707,6 +772,7 @@
       "allergens": ["молоко", "сыр"]
     },
     {
+      "id": 10,
       "name": "Сальса",
       "description": "Традиционный мексиканский соус, приготовленный из помидоров, лука, чеснока и острых перцев",
       "image_url": "https://example.com/salsa.jpg",
@@ -718,6 +784,7 @@
       "allergens": ["острые перцы"]
     },
     {
+      "id": 11,
       "name": "Гуакамоле",
       "description": "Соус, приготовленный из спелых авокадо, помидоров, лука, чеснока и лимонного сока",
       "image_url": "https://example.com/guacamole.jpg",
@@ -729,6 +796,7 @@
       "allergens": ["авокадо"]
     },
     {
+      "id": 12,
       "name": "Халибут",
       "description": "Соус на основе майонеза, приправленный специями и чесноком",
       "image_url": "https://example.com/halibut.jpg",
@@ -740,6 +808,7 @@
       "allergens": ["яйца"]
     },
     {
+      "id": 13,
       "name": "Классический соус для барбекю",
       "description": "Пикантный соус на основе томатной пасты с добавлением коричневого сахара, уксуса и специй",
       "image_url": "https://example.com/bbq_sauce.jpg",
