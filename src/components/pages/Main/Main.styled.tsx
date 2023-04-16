@@ -39,9 +39,10 @@ export const mains = {
     background-color: ${baseTheme.colors.white};
     justify-content: space-between;
     align-items: center;
-    transition: 0.1s ease-in-out;
+    transition: 0.2s ease-in-out;
     &:hover {
-      color: ${baseTheme.colors.hoverGreen};
+      background-color: ${baseTheme.colors.hoverGreen};
+      color: ${baseTheme.colors.white};
     }
   `,
   IBottom: styled.div`
@@ -52,5 +53,9 @@ export const mains = {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+  `,
+  ICategory: styled.div`
+    margin: 124px 0 0 0;
+    padding: 0;
   `,
 };

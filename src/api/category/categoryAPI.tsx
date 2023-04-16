@@ -1,9 +1,9 @@
-import getSushiList from './getSushiList';
-import getSushiItem from './getSushiItem';
+import getCategoryList from './getCategoryList';
+import getCategoryItem from './getCategoryItem';
 
 const categoryAPI = {
-  getSushiList,
-  getSushiItem,
+  getCategoryList,
+  getCategoryItem,
 };
 
 export default categoryAPI;

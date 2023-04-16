@@ -1,13 +1,4 @@
-export interface Root {
-  rolls: IRoll[];
-  sushi: ISushi[];
-  sets: ISet[];
-  bowls: IBowl[];
-  drinks: IDrink[];
-  sausec: ISausec[];
-}
-
-interface INinjaSushi {
+export interface INinjaSushi {
   id: number;
   name: string;
   description: string;
@@ -16,22 +7,6 @@ interface INinjaSushi {
   weight: string;
   price: number;
   gluten_free: boolean;
-  allergens: string[];
-}
-export interface IRoll extends INinjaSushi {}
-export interface ISushi extends INinjaSushi {}
-export interface ISet extends INinjaSushi {}
-export interface IBowl extends INinjaSushi {}
-
-export interface IIngredient {
-  name: string;
-  quantity: number;
-}
-
-export interface IDrink extends INinjaSushi {
-  volume: number;
-}
-
-export interface ISausec extends INinjaSushi {
   spiciness_level?: number;
+  allergens: string[];
 }

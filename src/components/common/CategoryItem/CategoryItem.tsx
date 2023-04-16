@@ -1,17 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { categoryitems } from './CategoryItems.styled';
 
 import { ReactComponent as AddToBasket } from '../../../assets/AddToBasket.svg';
 import { ReactComponent as Favorite } from '../../../assets/Favorite.svg';
-import { IRoll, ISushi, ISet, IBowl, IDrink, ISausec } from '../../../type/ICategory';
+import { INinjaSushi } from '../../../type/ICategory';
 
 interface CategoryItemProps {
-  category: ISushi | IRoll | ISet | IBowl | IDrink | ISausec;
+  category: INinjaSushi;
 }
 
 export default function CategoryItem({ category }: CategoryItemProps) {
-  const [isActive, setIsActive] = useState(false);
-
   return (
     <categoryitems.containers>
       <categoryitems.containerImg>
