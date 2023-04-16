@@ -13,14 +13,14 @@ export default function Footer() {
         <footers.terms>
           <WeLikeWhatWeDo width="246" height="59" />
           <footers.store>
-            <footers.linkStore to="/*">
+            <footers.linkStore to="/">
               <AppStore width="110" height="37" />
             </footers.linkStore>
-            <footers.linkStore to="/*">
+            <footers.linkStore to="/">
               <GooglePlay width="123" height="37" />
             </footers.linkStore>
           </footers.store>
-          <footers.privacyPolicy to="/">Политика конфиденциальности</footers.privacyPolicy>
+          <footers.privacyPolicy to="/privacypolicy">Политика конфиденциальности</footers.privacyPolicy>
         </footers.terms>
         <footers.links>
           <footers.navigations>Навигация:</footers.navigations>
@@ -29,16 +29,16 @@ export default function Footer() {
               <footers.link to="/">Главная</footers.link>
             </footers.li>
             <footers.li>
-              <footers.link to="/">Меню</footers.link>
+              <footers.link to="/category">Меню</footers.link>
             </footers.li>
             <footers.li>
-              <footers.link to="/">Доставка</footers.link>
+              <footers.link to="/delivery">Доставка</footers.link>
             </footers.li>
             <footers.li>
-              <footers.link to="/">Вакансии</footers.link>
+              <footers.link to="/clients">Клиентам</footers.link>
             </footers.li>
             <footers.li>
-              <footers.link to="/">Новости</footers.link>
+              <footers.link to="/news">Новости</footers.link>
             </footers.li>
           </footers.ul>
         </footers.links>

@@ -17,16 +17,16 @@ export default function Header() {
       </headers.logo>
       <headers.ul>
         <headers.li>
-          <headers.link to="/home">Главная</headers.link>
+          <headers.link to="/">Главная</headers.link>
         </headers.li>
         <headers.li>
-          <headers.link to="/">Доставка</headers.link>
+          <headers.link to="/delivery">Доставка</headers.link>
         </headers.li>
         <headers.li>
-          <headers.link to="/">О нас</headers.link>
+          <headers.link to="/clients">Клиентам</headers.link>
         </headers.li>
         <headers.li>
-          <headers.link to="/">Новости</headers.link>
+          <headers.link to="/news">Новости</headers.link>
         </headers.li>
         <headers.li>
           <headers.link to="tel:+380976993438">

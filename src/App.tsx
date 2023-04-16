@@ -17,8 +17,8 @@ function App() {
         <main>
           <Category />
           <Routes>
-            <Route path="/" element={<Navigate to="/home" replace />} />
-            <Route path="/home" element={<Main />} />
+            <Route path="/home" element={<Navigate to="/" replace />} />
+            <Route path="/" element={<Main />} />
 
             <Route path="*" element={<RoutingError />} />
           </Routes>
