@@ -6,7 +6,7 @@ export const categoryitems = {
     padding: 24px;
     border-radius: 12px;
     width: 320px;
-    height: 600px;
+    height: 520px;
     background-color: ${baseTheme.colors.white};
   `,
   containerImg: styled.div`
@@ -47,11 +47,12 @@ export const categoryitems = {
   `,
   bottomInterface: styled.div`
     display: flex;
-    margin-top: 72px;
     justify-content: space-between;
+    align-items: end;
   `,
   bottomLeft: styled.div`
     display: flex;
+    justify-content: flex-end;
     align-items: flex-end;
   `,
   bottomRight: styled.div`
@@ -69,7 +70,7 @@ export const categoryitems = {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
-    font-size: 26px;
+    font-size: 18px;
     line-height: 31px;
     color: ${baseTheme.colors.textFirst};
     margin: 0 0 0 5px;
@@ -83,23 +84,48 @@ export const categoryitems = {
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: 0.2s ease-in-out;
+    svg {
+      fill: #ff6633;
+    }
     &:hover {
       background-color: ${baseTheme.colors.bgTransparentSecond};
+    }
+    &:focus {
+      svg {
+        fill: white;
+      }
+      background-color: ${baseTheme.colors.primaryOrange};
     }
   `,
   addToBasket: styled.button`
     margin-left: 12px;
     padding: 10px 24px;
     display: flex;
+    fill: white;
     align-items: center;
     justify-content: center;
     border-radius: 12px;
     border: none;
     cursor: pointer;
     background-color: ${baseTheme.colors.bgGreen};
-    transition: 0.1s ease-in-out;
-    &:hover {
-      background-color: ${baseTheme.colors.hoverGreen};
+    transition: 0.2s ease-in-out;
+    svg {
+      fill: #00cc2d;
     }
+    &:hover {
+      background-color: ${baseTheme.colors.primaryGreen};
+      transition: 0.2s ease-in-out;
+      svg {
+        fill: white;
+      }
+    }
+  `,
+  downItem: styled.div``,
+  down: styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 240px;
   `,
 };

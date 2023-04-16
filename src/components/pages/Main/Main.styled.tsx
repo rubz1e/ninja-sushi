@@ -49,6 +49,8 @@ export const mains = {
     flex-wrap: wrap;
     margin: 32px 0 0 0;
     padding: 0;
+    display: flex;
+    justify-content: space-between;
     gap: 20px;
   `,
 };

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { mains } from './Main.styled';
 import getSushiList from '../../../api/category/getSushiList';
 import CategoryItem from '../../common/CategoryItem/CategoryItem';
-import { ISushi } from '../../../type/ISushi';
+import { ISushi } from '../../../type/ICategory';
 
 const SushiList = () => {
   const [sushiList, setSushiList] = useState<ISushi[]>([]);

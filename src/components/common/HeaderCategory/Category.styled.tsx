@@ -38,7 +38,13 @@ export const categories = {
     padding: 6px 20px;
     border-radius: 12px;
     color: ${baseTheme.colors.black};
+    svg {
+      fill: #9e9e9e;
+    }
     &:hover {
+      svg {
+        fill: #ff6633;
+      }
       background-color: ${baseTheme.colors.menuHover};
       color: ${baseTheme.colors.primaryOrange};
     }

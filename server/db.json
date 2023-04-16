@@ -5,7 +5,7 @@
       "name": "Ролл Дракон",
       "description": "Ролл с угрем, огурцом и авокадо внутри, тобико и соус унаги сверху",
       "image_url": "https://example.com/images/roll_dragon.jpg",
-      "igridients": ["Рис", "Угорь", "Огурец", "Авокадо", "Тобико", "Соус унаги"],
+      "ingredients": ["Рис", "Угорь", "Огурец", "Авокадо", "Тобико", "Соус унаги"],
       "weight": "200 г",
       "price": 12.0,
       "gluten_free": true,
@@ -16,7 +16,7 @@
       "name": "Ролл Калифорния",
       "description": "Классический ролл с крабовым мясом, огурцом и авокадо",
       "image_url": "https://example.com/images/roll_california.jpg",
-      "igridients": ["Рис", "Крабовое мясо", "Огурец", "Авокадо"],
+      "ingredients": ["Рис", "Крабовое мясо", "Огурец", "Авокадо"],
       "weight": "150 г",
       "price": 8.0,
       "gluten_free": true,
@@ -27,7 +27,7 @@
       "name": "Ролл Филадельфия",
       "description": "Ролл с лососем, сливочным сыром и огурцом внутри, сверху тобико и соус унаги",
       "image_url": "https://example.com/images/roll_philadelphia.jpg",
-      "igridients": ["Рис", "Лосось", "Сливочный сыр", "Огурец", "Тобико", "Соус унаги"],
+      "ingredients": ["Рис", "Лосось", "Сливочный сыр", "Огурец", "Тобико", "Соус унаги"],
       "weight": "180 г",
       "price": 10.0,
       "gluten_free": true,
@@ -38,7 +38,7 @@
       "name": "Ролл с креветкой",
       "description": "Ролл с креветкой, авокадо и огурцом",
       "image_url": "https://example.com/images/roll_shrimp.jpg",
-      "igridients": ["Рис", "Креветка", "Авокадо", "Огурец"],
+      "ingredients": ["Рис", "Креветка", "Авокадо", "Огурец"],
       "weight": "50 г",
       "price": 6.0,
       "gluten_free": true,
@@ -49,7 +49,7 @@
       "name": "Ролл с тунцом",
       "description": "Ролл с тунцом, авокадо и огурцом",
       "image_url": "https://example.com/images/roll_tuna.jpg",
-      "igridients": ["Рис", "Тунец", "Авокадо", "Огурец"],
+      "ingredients": ["Рис", "Тунец", "Авокадо", "Огурец"],
       "weight": "50 г",
       "price": 8.0,
       "gluten_free": true,
@@ -60,7 +60,7 @@
       "name": "Ролл Чикен Терияки",
       "description": "Ролл с курицей в соусе терияки",
       "image_url": "https://example.com/images/roll_chicken_teriyaki.jpg",
-      "igridients": ["Рис", "Курица", "Огурец", "Соус терияки"],
+      "ingredients": ["Рис", "Курица", "Огурец", "Соус терияки"],
       "weight": "60 г",
       "price": 4.5,
       "gluten_free": false,
@@ -71,7 +71,7 @@
       "name": "Ролл Сакура",
       "description": "Ролл с тигровой креветкой и авокадо",
       "image_url": "https://example.com/images/roll_sakura.jpg",
-      "igridients": ["Рис", "Тигровая креветка", "Авокадо", "Тобико", "Майонез"],
+      "ingredients": ["Рис", "Тигровая креветка", "Авокадо", "Тобико", "Майонез"],
       "weight": "70 г",
       "price": 6.0,
       "gluten_free": true,
@@ -82,7 +82,7 @@
       "name": "Ролл Мексиканский",
       "description": "Ролл с креветкой, авокадо и соусом сальса",
       "image_url": "https://example.com/images/roll_mexican.jpg",
-      "igridients": ["Рис", "Креветка", "Авокадо", "Салат", "Сальса"],
+      "ingredients": ["Рис", "Креветка", "Авокадо", "Салат", "Сальса"],
       "weight": "70 г",
       "price": 6.5,
       "gluten_free": true,
@@ -93,7 +93,7 @@
       "name": "Ролл с лососем и авокадо",
       "description": "Классический ролл с лососем и авокадо",
       "image_url": "https://example.com/images/salmon_avocado_roll.jpg",
-      "igridients": ["Рис", "Лосось", "Авокадо"],
+      "ingredients": ["Рис", "Лосось", "Авокадо"],
       "weight": "100 г",
       "price": 8.5,
       "gluten_free": true,
@@ -104,7 +104,7 @@
       "name": "Ролл с креветкой темпура",
       "description": "Ролл в жареной панировке, с креветкой, огурцом и темпурой",
       "image_url": "https://example.com/images/tempura_shrimp_roll.jpg",
-      "igridients": ["Рис", "Креветка", "Огурец", "Темпура"],
+      "ingredients": ["Рис", "Креветка", "Огурец", "Темпура"],
       "weight": "120 г",
       "price": 11.0,
       "gluten_free": false,
@@ -117,7 +117,7 @@
       "name": "Суши с лососем",
       "description": "Классические суши с лососем",
       "image_url": "https://ninjasushi.com.ua/img/3401.png",
-      "igridients": ["Рис", "Лосось"],
+      "ingredients": ["Рис", "Лосось"],
       "weight": "50 г",
       "price": 3.0,
       "gluten_free": true,
@@ -128,7 +128,7 @@
       "name": "Суши с тунцом",
       "description": "Классические суши с тунцом",
       "image_url": "https://ninjasushi.com.ua/img/3439.png",
-      "igridients": ["Рис", "Тунец"],
+      "ingredients": ["Рис", "Тунец"],
       "weight": "50 г",
       "price": 3.5,
       "gluten_free": true,
@@ -139,7 +139,7 @@
       "name": "Суши с крабом",
       "description": "Классические суши с крабом",
       "image_url": "https://ninjasushi.com.ua/img/3401.png",
-      "igridients": ["Рис", "Крабовое мясо"],
+      "ingredients": ["Рис", "Крабовое мясо"],
       "weight": "50 г",
       "price": 2.5,
       "gluten_free": true,
@@ -150,7 +150,7 @@
       "name": "Суши Филадельфия",
       "description": "Суши с лососем, сливочным сыром и авокадо",
       "image_url": "https://ninjasushi.com.ua/img/3416.png",
-      "igridients": ["Рис", "Лосось", "Сливочный сыр", "Авокадо"],
+      "ingredients": ["Рис", "Лосось", "Сливочный сыр", "Авокадо"],
       "weight": "60 г",
       "price": 4.5,
       "gluten_free": true,
@@ -161,7 +161,7 @@
       "name": "Суши Унаги",
       "description": "Суши с угрем и соусом унаги",
       "image_url": "https://ninjasushi.com.ua/img/3438.png",
-      "igridients": ["Рис", "Угорь", "Соус унаги"],
+      "ingredients": ["Рис", "Угорь", "Соус унаги"],
       "weight": "50 г",
       "price": 5.0,
       "gluten_free": true,
@@ -172,7 +172,7 @@
       "name": "Суши Магуро",
       "description": "Суши с тунцом и огурцом",
       "image_url": "https://ninjasushi.com.ua/img/3441.png",
-      "igridients": ["Рис", "Тунец", "Огурец"],
+      "ingredients": ["Рис", "Тунец", "Огурец"],
       "weight": "45 г",
       "price": 6.0,
       "gluten_free": true,
@@ -183,7 +183,7 @@
       "name": "Суши Калифорния",
       "description": "Суши с крабом и авокадо",
       "image_url": "https://ninjasushi.com.ua/img/3441.png",
-      "igridients": ["Рис", "Краб", "Авокадо"],
+      "ingredients": ["Рис", "Краб", "Авокадо"],
       "weight": "40 г",
       "price": 4.5,
       "gluten_free": true,
@@ -194,7 +194,7 @@
       "name": "Суши Тамаго",
       "description": "Суши с яичным омлетом и огурцом",
       "image_url": "https://ninjasushi.com.ua/img/3442.png",
-      "igridients": ["Рис", "Яичный омлет", "Огурец"],
+      "ingredients": ["Рис", "Яичный омлет", "Огурец"],
       "weight": "30 г",
       "price": 3.5,
       "gluten_free": true,
@@ -205,7 +205,7 @@
       "name": "Суши Такуан",
       "description": "Суши с маринованным японским редисом",
       "image_url": "https://ninjasushi.com.ua/img/3412.png",
-      "igridients": ["Рис", "Маринованный японский редис"],
+      "ingredients": ["Рис", "Маринованный японский редис"],
       "weight": "40 г",
       "price": 3.5,
       "gluten_free": true,
@@ -216,7 +216,7 @@
       "name": "Суши Темпура",
       "description": "Суши с жареным креветками и овощами",
       "image_url": "https://ninjasushi.com.ua/img/1301.png",
-      "igridients": ["Рис", "Креветки", "Огурец", "Перец болгарский", "Соус темпура"],
+      "ingredients": ["Рис", "Креветки", "Огурец", "Перец болгарский", "Соус темпура"],
       "weight": "55 г",
       "price": 6.0,
       "gluten_free": false,
@@ -226,8 +226,8 @@
       "id": 11,
       "name": "Суши Чука",
       "description": "Суши с крабовыми палочками и омлетом",
-      "image_url": "https://ninjasushi.com.ua/img/3443.png",
-      "igridients": ["Рис", "Крабовые палочки", "Омлет", "Огурец", "Икра тобико"],
+      "image_url": "https://ninjasushi.com.ua/img/3442.png",
+      "ingredients": ["Рис", "Крабовые палочки", "Омлет", "Огурец", "Икра тобико"],
       "weight": "50 г",
       "price": 3.5,
       "gluten_free": true,
@@ -238,7 +238,7 @@
       "name": "Суши Тирамису",
       "description": "Суши с креветками, огурцом и сыром",
       "image_url": "https://ninjasushi.com.ua/img/102-600x600.png",
-      "igridients": ["Рис", "Креветки", "Огурец", "Сливочный сыр"],
+      "ingredients": ["Рис", "Креветки", "Огурец", "Сливочный сыр"],
       "weight": "55 г",
       "price": 5.5,
       "gluten_free": false,
@@ -251,7 +251,7 @@
       "name": "Сет \"Калифорния 1\"",
       "description": "Сет с крабом, авокадо и огурцом",
       "image_url": "https://example.com/images/california_set.jpg",
-      "igridients": [
+      "ingredients": [
         { "name": "суши Калифорния", "quantity": 6 },
         { "name": "роллы Калифорния", "quantity": 8 }
       ],
@@ -265,7 +265,7 @@
       "name": "Сет \"Филадельфия\"",
       "description": "Сет с лососем и сливочным сыром",
       "image_url": "https://example.com/images/philadelphia_set.jpg",
-      "igridients": [
+      "ingredients": [
         { "name": "суши Филадельфия", "quantity": 6 },
         { "name": "роллы Филадельфия", "quantity": 8 }
       ],
@@ -279,7 +279,7 @@
       "name": "Сет \"Дракон\"",
       "description": "Сет с угрем и огурцом в жареной кунжутной корочке",
       "image_url": "https://example.com/images/dragon_set.jpg",
-      "igridients": [
+      "ingredients": [
         { "name": "суши Унаги", "quantity": 6 },
         { "name": "роллы Унаги", "quantity": 8 }
       ],
@@ -293,7 +293,7 @@
       "name": "Сет \"Счастливый\"",
       "description": "Сет с лососем и авокадо",
       "image_url": "https://example.com/images/happy_set.jpg",
-      "igridients": [
+      "ingredients": [
         { "name": "суши Лосось", "quantity": 4 },
         { "name": "роллы Авокадо", "quantity": 6 },
         { "name": "роллы Филадельфия", "quantity": 8 }
@@ -308,7 +308,7 @@
       "name": "Сет \"Смайлик\"",
       "description": "Сет с крабом и икрой",
       "image_url": "https://example.com/images/smiley_set.jpg",
-      "igridients": [
+      "ingredients": [
         { "name": "суши Краб", "quantity": 4 },
         { "name": "роллы Краб", "quantity": 6 },
         { "name": "роллы Икра", "quantity": 8 }
@@ -323,7 +323,7 @@
       "name": "Сет \"Красный дракон\"",
       "description": "Сет с лососем и кунжутом",
       "image_url": "https://example.com/images/red_dragon_set.jpg",
-      "igridients": [
+      "ingredients": [
         { "name": "суши Лосось", "quantity": 4 },
         { "name": "роллы Лосось", "quantity": 6 },
         { "name": "роллы Кунжут", "quantity": 8 }
@@ -338,7 +338,7 @@
       "name": "Сет \"Тайский\"",
       "description": "Сет с угрем и соусом Терияки",
       "image_url": "https://example.com/images/thai_set.jpg",
-      "igridients": [
+      "ingredients": [
         { "name": "суши Унаги", "quantity": 4 },
         { "name": "роллы Унаги", "quantity": 6 },
         { "name": "роллы Терияки", "quantity": 8 }
@@ -353,7 +353,7 @@
       "name": "Сет \"Филадельфия с кунжутом\"",
       "description": "Сет с лососем, сливочным сыром и кунжутом",
       "image_url": "https://example.com/images/philadelphia_set.jpg",
-      "igridients": [
+      "ingredients": [
         { "name": "суши Лосось", "quantity": 4 },
         { "name": "роллы Филадельфия", "quantity": 6 },
         { "name": "роллы Кунжут", "quantity": 8 }
@@ -368,7 +368,7 @@
       "name": "Сет \"Японский сад\"",
       "description": "Сет с тунцом и огурцом",
       "image_url": "https://example.com/images/japanese_garden_set.jpg",
-      "igridients": [
+      "ingredients": [
         { "name": "суши Тунец", "quantity": 4 },
         { "name": "роллы Огурец", "quantity": 6 },
         { "name": "роллы Тунец", "quantity": 8 }
@@ -383,7 +383,7 @@
       "name": "Сет \"Калифорния 2\"",
       "description": "Сет с крабовым мясом, авокадо и огурцом",
       "image_url": "https://example.com/images/california_set.jpg",
-      "igridients": [
+      "ingredients": [
         { "name": "суши Краб", "quantity": 4 },
         { "name": "роллы Калифорния", "quantity": 6 },
         { "name": "роллы Калифорния", "quantity": 8 }

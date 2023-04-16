@@ -61,10 +61,16 @@ export const headers = {
     color: ${baseTheme.colors.black};
     justify-content: space-between;
     align-items: center;
+    svg {
+      fill: #686870;
+    }
     &:hover {
       background-color: ${baseTheme.colors.primaryOrange};
       border: 1px solid ${baseTheme.colors.primaryOrange};
       color: ${baseTheme.colors.white};
+      svg {
+        fill: white;
+      }
     }
   `,
 };
